@@ -1,0 +1,9 @@
+service\CaracteristiquesService.class
+service\CandidatService.class
+domain\Candidat.class
+dao\CaracteristiquesDAO.class
+rs\CaracteristiqueRS.class
+rs\ExtractionRS.class
+intercepter\CORSFilter.class
+domain\Caracteristique.class
+service\ExtractionService.class
