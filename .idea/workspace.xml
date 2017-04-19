@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9b57de4-8bc3-479d-affb-52fc296d9363" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/classes/META-INF/beans.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/classes/META-INF/persistence.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/classes/dao/CaracteristiquesDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/classes/domain/Candidat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/classes/domain/Caracteristique.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/classes/intercepter/CORSFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/classes/rs/CaracteristiqueRS.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/classes/rs/ExtractionRS.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/classes/service/CandidatService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/classes/service/CaracteristiquesService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/classes/service/ExtractionService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/activation-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/byte-buddy-1.6.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/classmate-1.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/commons-lang3-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/fontbox-2.0.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/hibernate-core-5.2.7.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/hibernate-entitymanager-5.2.7.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/jandex-2.0.3.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/javaee-api-7.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/javax.mail-1.5.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/lib/pdfbox-2.0.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/Odin-0.1/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dao/CaracteristiquesDAO.java" afterPath="$PROJECT_DIR$/src/main/java/dao/CaracteristiquesDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/rs/CaracteristiqueRS.java" afterPath="$PROJECT_DIR$/src/main/java/rs/CaracteristiqueRS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/service/CaracteristiquesService.java" afterPath="$PROJECT_DIR$/src/main/java/service/CaracteristiquesService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -118,21 +84,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CaracteristiqueRS.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CaracteristiqueRS.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/rs/CaracteristiqueRS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="65" column="38" lean-forward="false" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+            <state relative-caret-position="218">
+              <caret line="63" column="43" lean-forward="false" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CaracteristiquesDAO.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CaracteristiquesDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dao/CaracteristiquesDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="34" column="63" lean-forward="false" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
+            <state relative-caret-position="268">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#415#416#0" expanded="true" />
                 <element signature="e#450#451#0" expanded="true" />
@@ -181,8 +147,8 @@
         <option value="$PROJECT_DIR$/src/main/java/service/ExtractionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/rs/ExtractionRS.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/CaracteristiquesService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rs/CaracteristiqueRS.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/CaracteristiquesDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rs/CaracteristiqueRS.java" />
       </list>
     </option>
   </component>
@@ -194,7 +160,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1432" />
     <option name="y" value="-8" />
     <option name="width" value="1456" />
     <option name="height" value="886" />
@@ -681,7 +647,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <frame x="1432" y="-8" width="1456" height="886" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -689,7 +656,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20358422" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1107,22 +1074,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rs/CaracteristiqueRS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="65" column="38" lean-forward="false" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/CaracteristiquesDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="34" column="63" lean-forward="false" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="63" />
+        <state relative-caret-position="268">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="e#415#416#0" expanded="true" />
             <element signature="e#450#451#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rs/CaracteristiqueRS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="63" column="43" lean-forward="false" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
