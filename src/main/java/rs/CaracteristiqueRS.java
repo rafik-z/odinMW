@@ -5,6 +5,7 @@ import service.CaracteristiquesService;
 
 import javax.ejb.EJB;
 import javax.jws.WebService;
+import javax.persistence.NoResultException;
 import javax.transaction.Transactional;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -13,7 +14,7 @@ import java.util.List;
 
 @Transactional
 @WebService
-@Path("/")
+@Path("/caracteristique")
 public class CaracteristiqueRS {
 
     @EJB
@@ -53,21 +54,19 @@ public class CaracteristiqueRS {
     }
 
     @DELETE
-    @Produces(MediaType.APPLICATION_JSON)
-    public Response supprimerCaracteristique(final String index){
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Path ( "/{caracteristiqueASupprimer}" )
+    public Response supprimerCaracteristique(@PathParam("caracteristiqueASupprimer") final String denomination){
         Response.ResponseBuilder builder = null;
 
-        Integer caracteristiqueASupprimer = Integer.parseInt(index);
-
         try {
-            caracteristiquesService.supprimerCaracteristique(caracteristiqueASupprimer);
-            builder = Response.ok();
-        } catch (Exception e) {
-            builder = Response.status(Response.Status.BAD_REQUEST);
+            this.caracteristiquesService.supprimerCaracteristique(denomination);
+            builder = Response.ok("Supprimé");
+        } catch (NoResultException e) {
+            builder = Response.status(Response.Status.NO_CONTENT);
         }
 
         return builder.build();
     }
-
 
 }
